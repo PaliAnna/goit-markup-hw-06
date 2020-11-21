@@ -34,7 +34,17 @@ h2,
 h3{
     margin-top: 0;
 }
-
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
 .container{
    width: 1200px;
    padding-left: 15px; 
@@ -1007,7 +1017,7 @@ position: relative;
   }
   .modal-button:hover,
   .modal-button:focus {
-    fill: var(--accent-color);
+    fill: var(--blue);
   }
   .modal-content {
     display: flex;
@@ -1152,4 +1162,4 @@ position: relative;
     border-radius: 4px;
   }
    
-  modal-content-check
+  modal-input-check
